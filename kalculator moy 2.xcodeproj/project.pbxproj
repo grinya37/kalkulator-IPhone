@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		20C4D2072971332A00569053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4D2062971332A00569053 /* AppDelegate.swift */; };
-		20C4D2092971332A00569053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4D2082971332A00569053 /* SceneDelegate.swift */; };
 		20C4D20B2971332A00569053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4D20A2971332A00569053 /* ViewController.swift */; };
 		20C4D20E2971332A00569053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C4D20C2971332A00569053 /* Main.storyboard */; };
 		20C4D2102971332C00569053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C4D20F2971332C00569053 /* Assets.xcassets */; };
 		20C4D2132971332C00569053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C4D2112971332C00569053 /* LaunchScreen.storyboard */; };
+		20C4D21B2971408D00569053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4D21A2971408D00569053 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20C4D2032971332A00569053 /* kalculator moy 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kalculator moy 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C4D2062971332A00569053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20C4D2082971332A00569053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		20C4D20A2971332A00569053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20C4D20D2971332A00569053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20C4D20F2971332C00569053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C4D2122971332C00569053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C4D2142971332C00569053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C4D21A2971408D00569053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				20C4D2062971332A00569053 /* AppDelegate.swift */,
-				20C4D2082971332A00569053 /* SceneDelegate.swift */,
+				20C4D21A2971408D00569053 /* SceneDelegate.swift */,
 				20C4D20A2971332A00569053 /* ViewController.swift */,
 				20C4D20C2971332A00569053 /* Main.storyboard */,
 				20C4D20F2971332C00569053 /* Assets.xcassets */,
@@ -140,7 +140,7 @@
 			files = (
 				20C4D20B2971332A00569053 /* ViewController.swift in Sources */,
 				20C4D2072971332A00569053 /* AppDelegate.swift in Sources */,
-				20C4D2092971332A00569053 /* SceneDelegate.swift in Sources */,
+				20C4D21B2971408D00569053 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +290,15 @@
 				DEVELOPMENT_TEAM = W2P9X4349P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kalculator moy 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +322,15 @@
 				DEVELOPMENT_TEAM = W2P9X4349P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kalculator moy 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
